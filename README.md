@@ -14,14 +14,14 @@ This project implements a Django-based API, database integration, Android emulat
    source venv/bin/activate
    # On Windows:
    venv\Scripts\activate```
-3. **Install Dependencies
+3. **Install Dependencies**
   `pip install django djangorestframework requests`
 
-4. **Apply Migrations
+4. **Apply Migrations**
   `python manage.py makemigrations
    python manage.py migrate`
 
-**Task 1: Backend Development
+# Task 1: Backend Development
    ## 1. Start the server
       `python manage.py runserver`
    ## 2. Testing
