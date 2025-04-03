@@ -39,9 +39,11 @@ This project implements a Django-based API, database integration, Android emulat
    1. Setup
       1. Ensure migrations are applied (see General Setup).
       2. Populate sample data:
-         `python apps/sample_data.py`
-         `python manage.py shell`
-         `from apps.models import App
-          App.objects.create(name="TestApp1", version="1.0", description="Test app 1")
-          App.objects.create(name="TestApp2", version="2.1", description="Test app 2")
-          exit()`
+         
+         ```bash
+         python apps/sample_data.py`
+         python manage.py shell`
+         from apps.models import App
+         App.objects.create(name="TestApp1", version="1.0", description="Test app 1")
+         App.objects.create(name="TestApp2", version="2.1", description="Test app 2")
+         exit()
