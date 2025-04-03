@@ -64,7 +64,7 @@ This project implements a Django-based API, database integration, Android emulat
                export PATH=$ANDROID_HOME/platform-tools:$ANDROID_HOME/emulator:$ANDROID_HOME/cmdline-tools/latest/bin:$PATH
                source ~/.zshrc 
 
-               !!! For MacOS
+               !!! For MacOS (Use different emulator for Windows)
                sdkmanager "platform-tools" "emulator" "system-images;android-30;google_apis;arm64-v8a"
 
          3. Create AVD:
