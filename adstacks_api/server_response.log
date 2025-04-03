@@ -1,0 +1,7 @@
+Status: 201
+Response: {
+  "id": 4,
+  "name": "Emulator_EMULATOR35X4X9X0",
+  "version": "11",
+  "description": "Virtual Android device with MemAvailable:     835704 kB"
+}
