@@ -27,9 +27,11 @@ This project implements a Django-based API, database integration, Android emulat
    2. Testing
       
       POST /add-app/:
+      
       `curl -X POST http://localhost:8000/api/add-app/ -H "Content-Type: application/json" -d '{"name": "TestApp", "version": "1.0", "description": "Test app"}`
 
       GET /get-app/{id}/ (replace {id} with the returned ID):
+      
       `curl http://localhost:8000/api/get-app/1/`
 
       DELETE /delete-app/{id}/:
