@@ -10,10 +10,14 @@ This project implements a Django-based API, database integration, Android emulat
 2. **Create and Activate Virtual Environment**:
    ```bash
    python3 -m venv venv
-   # On MacOS: source venv/bin/activate  # On Windows: venv\Scripts\activate
-3. **Install Dependencies
+   # On MacOS:
+   ```
+   source venv/bin/activate
+   `# On Windows:`
+   venv\Scripts\activate
+4. **Install Dependencies
   `pip install django djangorestframework requests`
 
-4. **Apply Migrations
+5. **Apply Migrations
   `python manage.py makemigrations
    python manage.py migrate`
