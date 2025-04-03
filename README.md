@@ -48,7 +48,6 @@ This project implements a Django-based API, database integration, Android emulat
          App.objects.create(name="TestApp2", version="2.1", description="Test app 2")
          exit()
    ## 2. Verification
-      ```bash
       python manage.py shell
       
       from apps.models import App
@@ -68,16 +67,16 @@ This project implements a Django-based API, database integration, Android emulat
                !!! For MacOS
                sdkmanager "platform-tools" "emulator" "system-images;android-30;google_apis;arm64-v8a"
 
-         3. Create AVD
+         3. Create AVD:
             avdmanager create avd -n TestEmulator -k "system-images;android-30;google_apis;arm64-v8a" --device "pixel_4"
       
-         4. Start Emulator
+         4. Start Emulator:
             emulator -avd TestEmulator -no-snapshot &
       
-         5. Place Sample APK
+         5. Place Sample APK:
             Copy a compatible APK (e.g., sample.apk) to the project root (adstacks_api/).
       
-         6. Run
+         6. Run:
             python apps/virtual_android.py
 
 # Task 4: Basic Networking
